@@ -1,0 +1,93 @@
+.container {
+  background: url("/public/images/mountains.svg"),
+    linear-gradient(135deg, #1f4e69 0, #164058 100%);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 140px 0 160px 0;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+}
+#big-head {
+  font-size: 60px;
+  position: absolute;
+  top: 0;
+  left: 33px;
+}
+.container input {
+  height: 40px;
+  color: white;
+  width: 380px;
+  border-radius: 10px;
+  border: 4px solid #608094;
+  background: #16394c;
+  font-size: 20px;
+  font-weight: 500;
+  /* margin: 0 0px; */
+}
+.btn {
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+  color: white;
+  /* border: 4px solid #608094; */
+  background: #16394c;
+  border: 4px solid #608094;
+
+  margin-left: 10px;
+}
+.input-box {
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+.info-box {
+  text-align: center;
+  height: 300px;
+  width: 500px;
+  border-radius: 10px;
+  border: 4px solid #608094;
+  background: #16394c;
+  /* margin: 10px 240px; */
+  display: inline-block;
+  margin: 0 auto;
+}
+.img-box {
+  /* border: 1px solid blue; */
+  font-size: 20px;
+  margin: 0px 10px 0 15px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+#sun {
+  /* border: 1px solid red; */
+  width: 80px;
+  margin: 0 30px 10px 30px;
+}
+#h1 {
+  /* border: 1px solid green; */
+  margin: 0 20px;
+  margin: 55px 15px 55px 15px;
+  width: 130px;
+  /* height: auto; */
+  text-align: initial;
+  font-size: 35px;
+  height: 50px;
+}
+.wind-box {
+  /* border: 1px solid white; */
+  margin-left: 20px;
+  width: 155px;
+  text-align: initial;
+  /* font-size: 13px; */
+  padding: 45px 0px;
+  /* font-size: 13px; */
+}
+.date-div {
+  margin: 15px;
+  font-size: 28px;
+}
